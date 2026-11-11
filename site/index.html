@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="zh-Hant" translate="no" class="notranslate">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f6f1e8">
+  <meta name="google" content="notranslate">
+  <title>Ordo Missæ · 彌撒經書</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark">✠</span>
+      <div>
+        <p class="eyebrow">ORDO MISSÆ</p>
+        <h1>彌撒經書</h1>
+      </div>
+    </div>
+    <button id="themeToggle" class="icon-button" aria-label="Toggle dark mode" title="Toggle dark mode">◐</button>
+  </header>
+
+  <nav class="primary-nav" aria-label="Main navigation">
+    <a class="nav-tab active" href="index.html" aria-current="page">每日讀經 <span>Daily Readings</span></a>
+    <a class="nav-tab" href="mass.html">彌撒常規 <span>Order of Mass</span></a>
+    <a class="nav-tab" href="prayers.html">彌撒前後禱文 <span>Prayers</span></a>
+    <a class="nav-tab" href="about.html">關於 <span>About</span></a>
+  </nav>
+
+  <section id="readingsView" class="view">
+    <div class="date-bar">
+      <button id="prev" class="round-button" aria-label="Previous day">←</button>
+      <label class="date-button" for="datePicker"><span id="dateText">…</span><input id="datePicker" type="date" aria-label="Choose reading date"></label>
+      <button id="next" class="round-button" aria-label="Next day">→</button>
+    </div>
+    <main id="main" tabindex="-1" aria-live="polite"><p class="muted">載入中…</p></main>
+    <footer id="src" class="source"></footer>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+</html>

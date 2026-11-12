@@ -1,4 +1,4 @@
-# Ordo Missæ · 彌撒經書
+# Ordo Missæ · The Order of Holy Mass · 彌撒經書
 
 A mobile-first, trilingual daily lectionary and missal companion. It presents:
 

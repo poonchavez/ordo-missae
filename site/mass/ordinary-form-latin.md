@@ -150,25 +150,25 @@ Qui pridie quam pateretur, accepit panem in sanctas ac venerabiles manus suas, e
 
 ACCIPITE ET MANDUCATE EX HOC OMNES: HOC EST ENIM CORPUS MEUM, QUOD PRO VOBIS TRADETUR.
 
-Simili modo, postquam cenatum est, accipit calicem, eumque parum elevatum super altare tenens, prosequitur: accipiens et hunc praeclarum calicem in sanctas ac venerabiles manus suas, item tibi gratias agens benedixit, deditque discipulis suis, dicens:
+Simili modo, postquam cenatum est, accipit calicem, eumque parum elevatum super altare tenens, prosequitur: accipiens et hunc præclarum calicem in sanctas ac venerabiles manus suas, item tibi gratias agens benedixit, deditque discipulis suis, dicens:
 
-ACCIPITE ET BIBITE EX EO OMNES: HIC EST ENIM CALIX SANGUINIS MEI NOVI ET AETERNI TESTAMENTI, QUI PRO VOBIS ET PRO MULTIS EFFUNDETUR IN REMISSIONEM PECCATORUM. HOC FACITE IN MEAM COMMEMORATIONEM.
+ACCIPITE ET BIBITE EX EO OMNES: HIC EST ENIM CALIX SANGUINIS MEI NOVI ET ÆTERNI TESTAMENTI, QUI PRO VOBIS ET PRO MULTIS EFFUNDETUR IN REMISSIONEM PECCATORUM. HOC FACITE IN MEAM COMMEMORATIONEM.
 
 V. Mysterium fidei.
 
 **R. Mortem tuam annuntiamus, Domine, et tuam resurrectionem confitemur, donec venias.**
 
-Unde et memores, Domine, nos servi tui, sed et plebs tua sancta, eiusdem Christi, Filii tui, Domini nostri, tam beatae passionis, necnon et ab inferis resurrectionis, sed et in caelos gloriosae ascensionis: offerimus praeclarae maiestati tuae de tuis donis ac datis hostiam puram, hostiam sanctam, hostiam immaculatam, Panem sanctum vitae aeternae et Calicem salutis perpetuae.
+Unde et memores, Domine, nos servi tui, sed et plebs tua sancta, eiusdem Christi, Filii tui, Domini nostri, tam beatæ passionis, necnon et ab inferis resurrectionis, sed et in cælos gloriosæ ascensionis: offerimus præclaræ maiestati tuæ de tuis donis ac datis hostiam puram, hostiam sanctam, hostiam immaculatam, Panem sanctum vitæ æternæ et Calicem salutis perpetuæ.
 
-Supra quae propitio ac sereno vultu respicere digneris: et accepta habere, sicuti accepta habere dignatus es munera pueri tui iusti Abel, et sacrificium Patriarchae nostri Abrahae, et quod tibi obtulit summus sacerdos tuus Melchisedech, sanctum sacrificium, immaculatam hostiam.
+Supra quæ propitio ac sereno vultu respicere digneris: et accepta habere, sicuti accepta habere dignatus es munera pueri tui iusti Abel, et sacrificium Patriarchæ nostri Abrahæ, et quod tibi obtulit summus sacerdos tuus Melchisedech, sanctum sacrificium, immaculatam hostiam.
 
-Supplices te rogamus, omnipotens Deus: iube haec perferri per manus sancti Angeli tui in sublime altare tuum, in conspectu divinae maiestatis tuae; ut, quotquot ex hac altaris participatione sacrosanctum Filii tui Corpus et Sanguinem sumpserimus, erigit se atque seipsum signat, dicens: omni benedictione caelesti et gratia repleamur. Per Christum, Dominum nostrum. Amen.
+Supplices te rogamus, omnipotens Deus: iube hæc perferri per manus sancti Angeli tui in sublime altare tuum, in conspectu divinæ maiestatis tuæ; ut, quotquot ex hac altaris participatione sacrosanctum Filii tui Corpus et Sanguinem sumpserimus, erigit se atque seipsum signat, dicens: omni benedictione cælesti et gratia repleamur. Per Christum, Dominum nostrum. Amen.
 
 Memento etiam, Domine, famulorum famularumque tuarum N. et N., qui nos præcesserunt cum signo fidei, et dormiunt in somno pacis. Ipsis, Domine, et omnibus in Christo quiescentibus locum refrigerii, lucis, et pacis, ut indulgeas, deprecamur. Per eundem Christum, Dominum nostrum. Amen.
 
 Nobis quoque peccatoribus famulis tuis, de multitudine miserationum tuarum sperantibus, partem aliquam et societatem donare digneris, cum tuis sanctis Apostolis et Martyribus: cum Ioanne, Stephano, Matthia, Barnaba, Ignatio, Alexandro, Marcellino, Petro, Felicitate, Perpetua, Agatha, Lucia, Agnete, Cæcilia, Anastasia, et omnibus Sanctis tuis: intra quorum nos consortium, non æstimator meriti, sed veniæ, quæsumus, largitor admitte. Per Christum, Dominum nostrum.
 
-Per quem haec omnia, Domine, semper bona creas, sanctificas, vivificas, benedicis, et praestas nobis.
+Per quem hæc omnia, Domine, semper bona creas, sanctificas, vivificas, benedicis, et præstas nobis.
 
 V. Per ipsum, et cum ipso, et in ipso, est tibi Deo Patri omnipotenti, in unitate Spiritus Sancti, omnis honor et gloria per omnia sæcula sæculorum.
 

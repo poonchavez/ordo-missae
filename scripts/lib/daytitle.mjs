@@ -32,7 +32,7 @@ export function englishDayTitle(zh) {
 }
 
 const ROMAN = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X", "XI", "XII", "XIII", "XIV", "XV", "XVI", "XVII", "XVIII", "XIX", "XX", "XXI", "XXII", "XXIII", "XXIV", "XXV", "XXVI", "XXVII", "XXVIII", "XXIX", "XXX", "XXXI", "XXXII", "XXXIII", "XXXIV"];
-const SEASON_LA = { 常年期: "per annum", 將臨期: "Adventus", 四旬期: "Quadragesimae", 復活期: "Paschae", 聖誕期: "Nativitatis" };
+const SEASON_LA = { 常年期: "per annum", 將臨期: "Adventus", 四旬期: "Quadragesimæ", 復活期: "Paschæ", 聖誕期: "Nativitatis" };
 const FERIA_LA = { 一: "Feria II", 二: "Feria III", 三: "Feria IV", 四: "Feria V", 五: "Feria VI", 六: "Sabbato" };
 
 /** Latin for the same ferial and Sunday titles, in the Ordo's style: Feria VI hebdomadae XXVIII per annum. */
@@ -40,14 +40,14 @@ export function latinDayTitle(zh) {
   if (!zh) return null;
   const t = zh.replace(/\s+/g, "");
   let m = /^(常年期|將臨期|四旬期|復活期|聖誕期)第([一二三四五六七八九十\d]+)[周週]星期([一二三四五六])$/.exec(t);
-  if (m) { const n = zhNumber(m[2]); if (n && ROMAN[n]) return `${FERIA_LA[m[3]]} hebdomadae ${ROMAN[n]} ${SEASON_LA[m[1]]}`; }
+  if (m) { const n = zhNumber(m[2]); if (n && ROMAN[n]) return `${FERIA_LA[m[3]]} hebdomadæ ${ROMAN[n]} ${SEASON_LA[m[1]]}`; }
   m = /^(常年期|將臨期|四旬期|復活期|聖誕期)第([一二三四五六七八九十\d]+)主日$/.exec(t);
   if (m) { const n = zhNumber(m[2]); if (n && ROMAN[n]) return `Dominica ${ROMAN[n]} ${SEASON_LA[m[1]]}`; }
   m = /^聖週星期([一二三四五六])$/.exec(t);
-  if (m) return `${FERIA_LA[m[1]]} Hebdomadae Sanctae`;
+  if (m) return `${FERIA_LA[m[1]]} Hebdomadæ Sanctæ`;
   m = /^(復活|聖誕)八日慶期(?:內)?(?:星期([一二三四五六])|第([一二三四五六七八])日)$/.exec(t);
-  if (m) { const oct = m[1] === "復活" ? "Paschae" : "Nativitatis Domini"; return m[2] ? `${FERIA_LA[m[2]]} infra octavam ${oct}` : `Die ${ROMAN[zhNumber(m[3])]} infra octavam ${oct}`; }
-  const fixed = { 聖灰禮儀: "Feria IV Cinerum", 傳教節: "Dominica pro Evangelizatione Populorum", 耶穌聖心: "Sacratissimi Cordis Iesu", 聖母無玷聖心: "Immaculati Cordis Beatae Mariae Virginis", 教會之母: "Beatae Mariae Virginis Ecclesiae Matris", 天主慈悲主日: "Dominica II Paschae seu de divina Misericordia", 聖神降臨: "Dominica Pentecostes", 聖枝主日: "Dominica in Palmis de Passione Domini", 主受難日: "Feria VI in Passione Domini", 聖週四: "Feria V Hebdomadae Sanctae", 聖週五: "Feria VI in Passione Domini", 聖週六: "Sabbato Sancto", 復活主日: "Dominica Paschae in Resurrectione Domini", 耶穌升天節: "In Ascensione Domini", 五旬節主日: "Dominica Pentecostes", 聖三主日: "Sanctissimae Trinitatis", 基督聖體聖血節: "Sanctissimi Corporis et Sanguinis Christi", 基督普世君王節: "Domini Nostri Iesu Christi Universorum Regis", 耶穌聖誕節: "In Nativitate Domini", 聖家節: "Sanctae Familiae Iesu, Mariae et Ioseph", 主顯節: "In Epiphania Domini", 主受洗節: "In Baptismate Domini" };
+  if (m) { const oct = m[1] === "復活" ? "Paschæ" : "Nativitatis Domini"; return m[2] ? `${FERIA_LA[m[2]]} infra octavam ${oct}` : `Die ${ROMAN[zhNumber(m[3])]} infra octavam ${oct}`; }
+  const fixed = { 聖灰禮儀: "Feria IV Cinerum", 傳教節: "Dominica pro Evangelizatione Populorum", 耶穌聖心: "Sacratissimi Cordis Iesu", 聖母無玷聖心: "Immaculati Cordis Beatæ Mariæ Virginis", 教會之母: "Beatæ Mariæ Virginis Ecclesiæ Matris", 天主慈悲主日: "Dominica II Paschæ seu de divina Misericordia", 聖神降臨: "Dominica Pentecostes", 聖枝主日: "Dominica in Palmis de Passione Domini", 主受難日: "Feria VI in Passione Domini", 聖週四: "Feria V Hebdomadæ Sanctæ", 聖週五: "Feria VI in Passione Domini", 聖週六: "Sabbato Sancto", 復活主日: "Dominica Paschæ in Resurrectione Domini", 耶穌升天節: "In Ascensione Domini", 五旬節主日: "Dominica Pentecostes", 聖三主日: "Sanctissimæ Trinitatis", 基督聖體聖血節: "Sanctissimi Corporis et Sanguinis Christi", 基督普世君王節: "Domini Nostri Iesu Christi Universorum Regis", 耶穌聖誕節: "In Nativitate Domini", 聖家節: "Sanctæ Familiæ Iesu, Mariæ et Ioseph", 主顯節: "In Epiphania Domini", 主受洗節: "In Baptismate Domini" };
   for (const [k, v] of Object.entries(fixed)) if (t.startsWith(k)) return v;
   return null;
 }

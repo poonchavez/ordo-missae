@@ -13,6 +13,10 @@ The site is a static GitHub Pages application. It needs no server or API keys. T
 Ordinary is bundled with the application; dated readings are generated into the
 deployment artifact and are not committed to the repository.
 
+An ASP.NET Core host is also available for local or server hosting. It serves the
+same `site/` frontend and maps `/data/YYYY-MM-DD.json` to the generated files in
+`dist/data/`.
+
 ## How it works
 
 ```text
@@ -83,6 +87,20 @@ npm test
 npm run build:fixture
 python3 -m http.server --directory dist
 ```
+
+To run the ASP.NET Core host (requires the .NET 10 SDK), first build the data and
+then start the web project:
+
+```sh
+npm ci
+npm run build
+dotnet run --project OrdoMissae.Web
+```
+
+The VB.NET build command is available as `dotnet run --project OrdoMissae.Build --`
+with the same options as `scripts/build.mjs` (for example `-- --dates 2026-10-16`).
+It currently forwards to the existing Node.js data pipeline so the parsers,
+English source matching, and Yale romanizer stay intact during the migration.
 
 `npm run build:fixture` builds `dist/` from the checked-in sample page without network
 access or English lookups. To build real dates locally:
